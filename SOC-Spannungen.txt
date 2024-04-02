@@ -1,0 +1,16 @@
+Minimale Zellspannung für "leer" (also 5 %) ist 3,05 V.
+Limitierung Entladeleistung auf 20 A bei 3,09 V.
+Limitierung auf 15 A bei 3,08 V.
+Limitierung auf 10 A bei 3,07 V.
+Limitierung auf 5 A bei 3,06 V.
+Bei 3,05 V wird dann auf 2,5 A limitiert, aber auch geladen.
+Die Spannungen gelten bei den jeweiligen Entladungsströmen. Wenn die leere Batterie eine Zeit lang ungenutzt rumsteht, steigt die Spannung wieder. Natürlich ohne SOC-Änderung. Und wenn geladen wird, steigt die Spannung natürlich gravierend an.
+
+Maximale Zellspannung für "voll" (also 100% und kein Ladestrom) ist 3,61 V.
+Limitierung Ladeleistung auf 20 A bei 3,55 V.
+Limitierung auf 10 A bei 3,57 V.
+Limitierung 5 A bei 3,59 V.
+Limitierung auf 2,5 A ist etwas unklar. Entweder bei 3,6 V oder nach einiger Zeit oder sowas.
+Wie beim Entladen gelten diese Spannungen nur bei den jeweiligen Ladeströmen. Wenn die Batterie rumsteht oder entladen wird, fallen die Spannungen wieder.
+
+Auffallend sind die relativ großen Abstände zwischen minimaler und maximaler Zellspannung bei Entlade- und Ladeschluss. Aber das ist physikalisch verständlich, weil es natürlich immer eine Zelle geben muss, die als erstes voll oder leer ist. Die anderen hängen dann noch hinterher.
